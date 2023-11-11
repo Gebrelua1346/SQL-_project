@@ -1,0 +1,100 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Gebrelua1346/SQL-_project/blob/main/Transfer_learning\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "CLPxVio93V45",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "c7ee7d98-5390-4ed8-c0b6-624c55659407"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "                        * * *                         \n",
+            "                        * * *                         \n",
+            "                        * * *                         \n",
+            "                        * * *                         \n",
+            "                        * * *                         \n",
+            "                        * * *                         \n",
+            "  *   *   *   *   *   * * * *   *   *   *   *   *   * \n",
+            "  *   *   *   *   *   * * * *   *   *   *   *   *   * \n",
+            "  *   *   *   *   *   * * * *   *   *   *   *   *   * \n",
+            "                        * * *                         \n",
+            "                        * * *                         \n",
+            "                        * * *                         \n",
+            "                        * * *                         \n",
+            "                        * * *                         \n",
+            "                        * * *                         \n"
+          ]
+        }
+      ],
+      "source": [
+        "n=15\n",
+        "for i in range(n):\n",
+        "  for j in range(n):\n",
+        "     if(j==6 or j==7 or j==8):\n",
+        "       print(\"*\",end=\" \")\n",
+        "     else:\n",
+        "       print(\" \",end=\" \")\n",
+        "       if(i==6 or i==7 or i==8):\n",
+        "         print(\"*\",end=\" \")\n",
+        "       else:\n",
+        "         print(\" \",end=\" \")\n",
+        "\n",
+        "  print()\n",
+        "\n",
+        ""
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "7dyF7Ubd21xp"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "qq21ZFSA1pv2"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "accelerator": "GPU",
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMjKkqfVflPaSapH/jTw0nv",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
